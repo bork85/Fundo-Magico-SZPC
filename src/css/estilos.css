@@ -1,0 +1,118 @@
+body {
+    background-color: #0f131a;
+    color: #ffffff;
+    font-family: "Roboto Mono", monospace;
+    background: url('/src/images/bg.jpg');
+    line-heigth: 1.4;
+    padding: 32px 24px;
+}
+
+.header {
+
+    z-index: 999;
+    position: relative;
+    max-width: 700px;
+    margin: 48px auto;
+}
+
+.header h1 {
+    margin-bottom: 16px;
+    font-size: 48px;
+    text-align: center;
+}
+
+.subtitle {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 19px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    z-index: 99;
+    position: relative;
+}
+
+.card {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+    margin-bottom: 32px;
+}
+
+.card-header {
+    margin-bottom: 32px;
+    font-size: 21px;
+    text-align: center;
+}
+
+.form-group textarea {
+    background-color: rgba(255,255,255,0.05);
+    color: #ffffff;
+    width: 100%;
+    min-heigth: 120px;
+    padding: 16px;
+    border: 1px solid #464747;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.form-group textarea:focus {
+    outline: none;
+    border-color: #A655F7;
+}
+
+.form-group textarea::placeholder {
+    color: #a19e9e;
+}
+
+.form-group .btn-magic {
+    width: 100%;
+    padding: 16px 32px;
+    background: linear-gradient(90deg, #A655F7 0%, #FF80AA 100%);
+    border-radius: 8px;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s easy;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-group .btn-magic:hover {
+    transform: translateY(-2px);
+    opacity: 0.8;
+}
+
+.preview-card {
+    display: none;
+}
+
+.code-grid {
+    display: flex;
+    gap: 24px;
+}
+
+.code-card {
+    background-color: #21242a;
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 24px;
+    width: 50%;
+}
+
+.code-title {
+    font-size: 20px;
+    margin-bottom: 16px
+}
+
+.code-block {
+    background-color: #0a0c10;
+    color: #5eead4;
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 14px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
