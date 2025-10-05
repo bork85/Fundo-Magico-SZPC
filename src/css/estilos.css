@@ -2,7 +2,7 @@ body {
     background-color: #0f131a;
     color: #ffffff;
     font-family: "Roboto Mono", monospace;
-    background: url('/src/images/bg.jpg');
+    background: url('./src/images/bg.jpg');
     line-heigth: 1.4;
     padding: 32px 24px;
 }
